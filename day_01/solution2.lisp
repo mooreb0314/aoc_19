@@ -16,9 +16,6 @@
     )
 )
 
-;(print (- (get-fuel 1969) 1969))
-
-
 (print
     (apply '+ (loop 
         for mass in (get-file "/Users/aiuedg2/git/aoc_19/day_01/input.txt")
