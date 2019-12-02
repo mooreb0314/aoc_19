@@ -25,6 +25,6 @@ for i in range(100):
 
             if copy[0] == 19690720:
                 print("Noun: {0}, Verb: {1}".format(i,j))
-                print(100* i + j)
+                print(100 * i + j)
 
 
