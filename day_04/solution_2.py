@@ -9,7 +9,7 @@ for i in range(109165, 576723):
     double_count = False
 
     # Find if duplicates exists
-    if sorted(list(set(digit_array))) != sorted(digit_array):
+    if len(list(set(digit_array))) != len(digit_array):
         double = True
 
     # Ensure increasing
